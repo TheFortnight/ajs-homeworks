@@ -1,0 +1,42 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheFortnight/ajs-homeworks.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Fortnight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheFortnight/ajs-homeworks/issues"
+  },
+  "homepage": "https://github.com/TheFortnight/ajs-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "babelrc": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": 3
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "core-js": "^3.27.2"
+  }
+}
